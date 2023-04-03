@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zhong Hongwei"
+title: "Zhong Hongwei(钟鸿蔚)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -26,5 +26,5 @@ I'm a second-year graduate student from [China Economics and Management Academy]
 You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 
-[Email](mailto:zhonghongwei@email.cufe.edu.cn) / [Github](https://github.com/CHNzhonghongwei) / [Wechat](../images/Wechat.png) / [CSDN](https://blog.csdn.net/weixin_43108468?type=blog)
+[Email](mailto:zhonghongwei@email.cufe.edu.cn) / [Github](https://github.com/CHNzhonghongwei) / [Wechat](../images/WechatIMG135.jpeg) / [CSDN](https://blog.csdn.net/weixin_43108468?type=blog)
 
