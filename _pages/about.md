@@ -16,7 +16,7 @@ I'm a second-year graduate student from [China Economics and Management Academy]
 
 **Hobbies**: In personal life, I like coding, reading, swimming, and listening to music. 
 
-**Coding**: I am good at data analysis in Python and I have learned the basic framework of machine learning and made practices such as _Using hybrid model(e.g. SVM+AR) to predicting PM2.5 of Chengdu_. With such passion in computer science, I had classes on Data analysis in Python, Database(SQL), Data structure in C++, Big data in Hadoop, Data mining, Data science in R, Data modeling in Matlab (and Principles of blockchain, of course), etc. Now I am immersed in learning knowledge of blockchain (especially on smart contracts and DeFi) and reading papers on Economic theory of blockchain applications.
+**Coding**: I am good at data analysis in Python and I have learned the basic framework of machine learning and made practices such as _Using hybrid model(e.g. SVM+AR) to predict daily PM2.5 of Chengdu_. With such passion in computer science, I had classes on Data analysis in Python, Database(SQL), Data structure in C++, Big data in Hadoop, Data mining, Data science in R, Data modeling in Matlab (and Principles of blockchain, of course), etc. Now I am immersed in learning knowledge of blockchain (especially on smart contracts and DeFi) and reading papers on Economic theory of blockchain applications.
 
 **Reading: The more I buy, the more I read.** I enjoy collecting classic books in various fields and read them slowly but hard, such as literature, economics, history, computer science, psychology, philosophy and even music. Recently I am reading _The Theory of Interest_ by Fisher. If you like reading as well, do not hesitate to get in touch.
 
