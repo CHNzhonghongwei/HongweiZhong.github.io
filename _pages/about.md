@@ -23,7 +23,7 @@ I’m a second-year graduate student from [China Economics and Management Academ
 **Music**: Jazz helps me relax and the rhythm is floating while rock is vigorous or sometimes deep and blue(Post-Rock). I also like classic music but cannot fully get it due to my limited knowledge of music theory and the techniques of playing instruments (I am learning by listening). R.I.P., Sakamoto Ryuichi.
 
 
-You can find my CV and Resume here: [Curriculum Vitae](../assets/Curriculum_Vitae.pdf) and [Resume](../assets/Resume20230404.pdf).
+You can find my CV and Resume here: [Curriculum Vitae](../assets/Curriculum_Vitae.pdf) and [Resume](../assets/Resume.pdf).
 
 [Email](mailto:zhonghongwei@email.cufe.edu.cn) / [Github](https://github.com/CHNzhonghongwei) / [CSDN](https://blog.csdn.net/weixin_43108468?type=blog)
 
