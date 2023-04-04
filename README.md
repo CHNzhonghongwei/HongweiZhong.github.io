@@ -46,6 +46,8 @@ bundle exec jekyll serve
 
 上传修改三步走
 
+关闭vpn
+
 git add .
 
 git commit -m "版本名称"
