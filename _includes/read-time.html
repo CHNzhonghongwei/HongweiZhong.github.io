@@ -1,57 +1,7 @@
 {% if post.read_time %}
-   {% assign content0 = document.content | strip_html %}
-      {% assign content_size = content0 | size | minus: 1 %}
-      {% assign pre_is_letter = false %}
-      {% assign words = 0 %}
-      {% for i in (0..content_size) %}
-        {% assign character = content0 | slice: i %}
-        {% case character %}
-          {% when "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" %}
-            {% assign pre_is_letter = true %}
-          {% when "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" %}
-            {% assign pre_is_letter = true %}
-          {% when "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" %}
-            {% assign pre_is_letter = true %}
-          {% when " ", "\t", "\r", "\n", "!", ".", "?", ",", "！", "。", "？", "，", "/", "、", "：", ":", "(", "（", ")", "）", "；", ";", "_", "—", "-" %}
-            {% if pre_is_letter %}
-              {% assign words = words | plus: 1 %}
-            {% endif %}
-            {% assign pre_is_letter = false %}
-          {% else %}
-            {% if pre_is_letter %}
-              {% assign words = words | plus: 1 %}
-            {% endif %}
-            {% assign pre_is_letter = false %}
-            {% assign words = words | plus: 1 %}
-        {% endcase %}
-      {% endfor %}
+  {% assign words = post.content | strip_html | number_of_words %}
 {% elsif page.read_time %}
-   {% assign content0 = document.content | strip_html %}
-      {% assign content_size = content0 | size | minus: 1 %}
-      {% assign pre_is_letter = false %}
-      {% assign words = 0 %}
-      {% for i in (0..content_size) %}
-        {% assign character = content0 | slice: i %}
-        {% case character %}
-          {% when "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" %}
-            {% assign pre_is_letter = true %}
-          {% when "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" %}
-            {% assign pre_is_letter = true %}
-          {% when "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" %}
-            {% assign pre_is_letter = true %}
-          {% when " ", "\t", "\r", "\n", "!", ".", "?", ",", "！", "。", "？", "，", "/", "、", "：", ":", "(", "（", ")", "）", "；", ";", "_", "—", "-" %}
-            {% if pre_is_letter %}
-              {% assign words = words | plus: 1 %}
-            {% endif %}
-            {% assign pre_is_letter = false %}
-          {% else %}
-            {% if pre_is_letter %}
-              {% assign words = words | plus: 1 %}
-            {% endif %}
-            {% assign pre_is_letter = false %}
-            {% assign words = words | plus: 1 %}
-        {% endcase %}
-      {% endfor %}
+  {% assign words = page.content | strip_html | number_of_words %}
 {% endif %}
 
 {% if site.words_per_minute %}
